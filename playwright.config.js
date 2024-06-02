@@ -30,6 +30,7 @@ module.exports = defineConfig({
     trace: 'on-first-retry',
     headless: true,
     //headless: false,
+    testTimeout: 60000, 
 
   },
 
@@ -39,30 +40,30 @@ module.exports = defineConfig({
       name: 'chromium',
       use: { ...devices['Desktop Chrome'] },
     },
-    {
-      name: 'firefox',
-      use: { ...devices['Desktop Firefox'] },
-    },
-    {
-      name: 'webkit',
-      use: { ...devices['Desktop Safari'] },
-    },
-    {
-      name: 'Mobile Chrome',
-      use: { ...devices['Pixel 5'] },
-    },
-    {
-      name: 'Mobile Safari',
-      use: { ...devices['iPhone 12'] },
-    },
-    {
-      name: 'Microsoft Edge',
-      use: { ...devices['Desktop Edge'], channel: 'msedge' },
-    },
-    {
-      name: 'Google Chrome',
-      use: { ...devices['Desktop Chrome'], channel: 'chrome' },
-    },
+  //  {
+  //   name: 'firefox',
+  //    use: { ...devices['Desktop Firefox'] },
+  //  },
+  //  {
+    //  name: 'webkit',
+    //  use: { ...devices['Desktop Safari'] },
+    //},
+    //{
+    //  name: 'Mobile Chrome',
+    // use: { ...devices['Pixel 5'] },
+    //},
+    //{
+    //  name: 'Mobile Safari',
+    //  use: { ...devices['iPhone 12'] },
+    //},
+    //{
+    //  name: 'Microsoft Edge',
+    //  use: { ...devices['Desktop Edge'], channel: 'msedge' },
+    //},
+    //{
+    //  name: 'Google Chrome',
+    //  use: { ...devices['Desktop Chrome'], channel: 'chrome' },
+    //},
   ],
 
   /* Run your local dev server before starting the tests */

@@ -31,6 +31,7 @@ module.exports = defineConfig({
     headless: true,
     //headless: false,
     testTimeout: 60000, 
+    //videoSlowdownMultiplier: 3,
 
   },
 

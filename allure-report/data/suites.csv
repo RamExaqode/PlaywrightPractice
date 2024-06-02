@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Jun 02 16:04:37 IST 2024","Sun Jun 02 16:04:45 IST 2024","7146","Google Chrome","HomepageTest.spec.js","","","","Home Page",""
+"passed","Sun Jun 02 16:04:34 IST 2024","Sun Jun 02 16:04:44 IST 2024","9786","chromium","HomepageTest.spec.js","","","","Home Page",""
+"passed","Sun Jun 02 16:04:34 IST 2024","Sun Jun 02 16:04:38 IST 2024","4129","firefox","HomepageTest.spec.js","","","","Home Page",""
+"passed","Sun Jun 02 16:04:34 IST 2024","Sun Jun 02 16:04:44 IST 2024","9524","Mobile Chrome","HomepageTest.spec.js","","","","Home Page",""
+"passed","Sun Jun 02 16:04:34 IST 2024","Sun Jun 02 16:04:37 IST 2024","2862","Mobile Safari","HomepageTest.spec.js","","","","Home Page",""
+"passed","Sun Jun 02 16:04:34 IST 2024","Sun Jun 02 16:04:37 IST 2024","2921","webkit","HomepageTest.spec.js","","","","Home Page",""
+"passed","Sun Jun 02 16:04:34 IST 2024","Sun Jun 02 16:04:44 IST 2024","9795","Microsoft Edge","HomepageTest.spec.js","","","","Home Page",""

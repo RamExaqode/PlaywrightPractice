@@ -1,0 +1,13 @@
+{
+  "name": "your-project-name",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "playwright test",
+    "allure:generate": "allure generate ./allure-results --clean",
+    "allure:open": "allure open ./allure-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.30.0",
+    "allure-playwright": "^2.0.0"
+  }
+}

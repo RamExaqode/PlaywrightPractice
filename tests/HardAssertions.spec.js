@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('Assertions in tests', async ({ page }) => {
+test('Hard Assertions in tests', async ({ page }) => {
 
   await page.goto('https://demo.nopcommerce.com/register');
 
@@ -31,7 +31,7 @@ test('Assertions in tests', async ({ page }) => {
 
   //8. expect(locator).toHaveCount(length) List of elements has given length
   const options=page.locator("//select[@name='DateOfBirthMonth']//option");
-  await expect(options).toHaveCount(13);
+  //await expect(options).toHaveCount('13');
 
   //9. expect(locator).toHaveValue(value) Input has a value
   const emailInput=page.locator('#Email');

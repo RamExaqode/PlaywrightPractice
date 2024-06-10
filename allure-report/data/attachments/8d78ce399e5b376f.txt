@@ -1,0 +1,6 @@
+TAP version 13
+# Subtest: Alert Handling
+ok 1 - Alert Handling # SKIP
+  ---
+  duration_ms: 0.3761
+  ...

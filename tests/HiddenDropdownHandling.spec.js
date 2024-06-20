@@ -40,7 +40,8 @@ test('Hidden dropdown handling', async ({ page }) => {
         await option.click();
         break;
     }
-    await page.waitForTimeout(5000);  
+    await page.waitForTimeout(3000);  
+
 
 
  }   

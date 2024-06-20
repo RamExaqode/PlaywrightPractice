@@ -3,7 +3,7 @@ const { defineConfig, devices } = require('@playwright/test');
 
 module.exports = defineConfig({
   testDir: './tests',
-  fullyParallel: true,
+  fullyParallel: false,
   forbidOnly: !!process.env.CI,
   retries: process.env.CI ? 2 : 0,
   workers: process.env.CI ? 1 : undefined,
@@ -15,7 +15,7 @@ module.exports = defineConfig({
   use: {
     screenshot: 'only-on-failure',
     video: 'on',
-    trace: 'on-first-retry',
+    trace: 'on',
     headless: true,
     testTimeout: 60000,
     launchOptions: {

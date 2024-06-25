@@ -39,4 +39,6 @@ test('Soft Assertions in tests', async ({ page }) => {
   await emailInput.fill('rammarshivane@gmail.com');
   await expect.soft(emailInput).toHaveValue('rammarshivane@gmail.com');
 
+  await page.waitForTimeout(5000);
+
 });

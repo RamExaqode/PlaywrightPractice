@@ -1,6 +1,8 @@
 import { test, expect } from '@playwright/test';
 
-test('Radio button handling', async ({ page }) => {
+test('Radio button handling', { severity: 'critical' }, async ({ page }) => {
+
+//test('Radio button handling', async ({ page }) => {
   await page.goto('https://testautomationpractice.blogspot.com/');
 
   // Corrected the XPath selectors

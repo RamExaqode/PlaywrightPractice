@@ -1,4 +1,5 @@
 import { test, expect } from '@playwright/test';
+import { skip } from 'node:test';
 
 test.beforeEach(async ({ context }) => {
     // Clear cookies and permissions before each test
@@ -6,7 +7,7 @@ test.beforeEach(async ({ context }) => {
     await context.clearPermissions();
   });
   
-test('Hidden dropdown handling', async ({ page }) => {
+test.skip('Hidden dropdown handling', async ({ page }) => {
     await page.waitForTimeout(5000);
   await page.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login');
  

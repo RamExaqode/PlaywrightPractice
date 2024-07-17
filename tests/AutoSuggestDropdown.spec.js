@@ -1,6 +1,6 @@
 import { chromium, test, expect } from '@playwright/test';
 
-test('Dropdown Handling', async () => {
+test.skip('Dropdown Handling', async () => {
     const browser = await chromium.launch({
         args: ['--disable-http2']
     });

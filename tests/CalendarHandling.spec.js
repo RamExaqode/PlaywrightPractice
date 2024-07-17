@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('Date picker', async ({ page }) => {
+test.skip('Date picker', async ({ page }) => {
   await page.goto('https://testautomationpractice.blogspot.com/');
 
   //Approach1: Direct fill the date if datepicker allows

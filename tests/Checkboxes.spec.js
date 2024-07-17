@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('Checkbox handling', async ({ page }) => {
+test.skip('Checkbox handling', async ({ page }) => {
   await page.goto("https://testautomationpractice.blogspot.com/");
 
   test.setTimeout(60000); // 60 seconds

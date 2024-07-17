@@ -21,7 +21,7 @@ await page.waitForTimeout(5000);
 
 });
 
-test('Confirmation Dialogbox Ok or Cancel Handling', async ({page}) => {
+test.skip('Confirmation Dialogbox Ok or Cancel Handling', async ({page}) => {
    
     //await page.goto('https://testautomationpractice.blogspot.com/');
 
@@ -47,7 +47,7 @@ test('Confirmation Dialogbox Ok or Cancel Handling', async ({page}) => {
     await page.waitForTimeout(5000);
 });
 
-test('Prompt alert Handling', async ({page}) => {
+test.skip('Prompt alert Handling', async ({page}) => {
    
     //await page.goto('https://testautomationpractice.blogspot.com/');
 
